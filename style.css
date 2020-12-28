@@ -21,17 +21,15 @@
     margin-bottom: 16px;
 }
 
-
-
 /* Header */
 
-.title {
+header.title {
     padding: 30px 30px;
     background-color: black;
     color: #FCF8E8;
 }
 
-.title h1{
+header.title h1{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -64,6 +62,7 @@
 #color5 {
     background-color: #FCF8E8;
 }
+
 
 /* Font Section*/
 
@@ -105,4 +104,35 @@
 
 #Raleway p, #Raleway li {
     font-family: 'Raleway', sans-serif;;
+}
+
+
+/* Text Section */
+
+.text div {
+    padding-bottom: 18px;
+    text-indent: 1%;
+}
+
+
+.text .title {
+    margin-bottom: 16px;
+}
+
+.text li {
+    list-style: square;
+    list-style-position: inside;
+    text-indent: 2%;
+}
+
+.text .h1 .title {
+    font-size: 32px;
+}
+
+.text .h2 .title {
+    font-size: 24px;
+}
+
+.text .paragraph .title {
+    font-size: 16px;
 }
