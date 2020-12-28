@@ -1,5 +1,4 @@
-/* Font Faimly */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,400;0,700;1,100&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300&display=swap');
+
 
 /* Universal */
 
@@ -26,10 +25,13 @@
 /* Header */
 
 .title {
-    font-family: "Raleway", sans-serif;
     padding: 20px 30px;
     background-color: #EF4F4F;
     color: #FCF8E8;
+}
+
+.title h1{
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -65,3 +67,14 @@
 /* Font Section*/
 
 
+#Roboto p,li {
+    font-family: 'Roboto', sans-serif;
+}
+
+#Source p,li {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#Raleway p,li {
+    font-family: 'Raleway', sans-serif;;
+}
