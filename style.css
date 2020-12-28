@@ -23,7 +23,12 @@
 
 .title {
     font-family: "Raleway", sans-serif;
+    padding: 20px 30px;
+    background-color: #EF4F4F;
+    color: #FCF8E8;
 }
+
+
 
 /* Color Section*/
 
