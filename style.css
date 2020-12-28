@@ -9,7 +9,8 @@
 }
 
 .box {
-    border : 1px solid #000;
+    border : 1px solid black;
+    border-radius: 3px;
     margin: 50px 30px;
     padding: 20px 20px;
 }
@@ -25,8 +26,8 @@
 /* Header */
 
 .title {
-    padding: 20px 30px;
-    background-color: #EF4F4F;
+    padding: 30px 30px;
+    background-color: black;
     color: #FCF8E8;
 }
 
@@ -66,9 +67,6 @@
 
 /* Font Section*/
 
-.font li {
-    list-style: none;
-}
 
 .font .fontTitle {
     padding-bottom: 16px;
@@ -76,6 +74,25 @@
 
 .font .fontName {
     margin-bottom: 18px;
+    text-indent: 1%;
+}
+
+.fontName .fontTitle {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.fontName li {
+    list-style: none;
+}
+
+.fontName .light {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fontName .bold {
+    font-weight: 700;
 }
 
 #Roboto p, #Roboto li {
