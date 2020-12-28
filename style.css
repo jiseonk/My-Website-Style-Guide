@@ -36,4 +36,32 @@
 
 /* Color Section*/
 
+.colors li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+#color1 {
+    background-color: #EF4F4F;
+}
+
+#color2 {
+    background-color: #EE9595;
+}
+
+#color3 {
+    background-color: #FFCDA3;
+}
+
+#color4 {
+    background-color: #74C7B8;
+}
+
+#color5 {
+    background-color: #FCF8E8;
+}
+
+/* Font Section*/
+
 
