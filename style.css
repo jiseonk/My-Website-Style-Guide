@@ -2,14 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,400;0,700;1,100&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300&display=swap');
 
 /* Universal */
+
 .box {
     border : 3px solid #000;
+}
+
+
+.box h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 
 .title {
-    font-family: 
+    font-family: "Raleway", sans-serif;
 }
 
 /* Color Section*/
+
+
