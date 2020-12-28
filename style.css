@@ -66,15 +66,26 @@
 
 /* Font Section*/
 
+.font li {
+    list-style: none;
+}
 
-#Roboto p,li {
+.font .fontTitle {
+    padding-bottom: 16px;
+}
+
+.font .fontName {
+    margin-bottom: 18px;
+}
+
+#Roboto p, #Roboto li {
     font-family: 'Roboto', sans-serif;
 }
 
-#Source p,li {
+#Source p, #Source li {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#Raleway p,li {
+#Raleway p, #Raleway li {
     font-family: 'Raleway', sans-serif;;
 }
