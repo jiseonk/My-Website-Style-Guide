@@ -10,13 +10,17 @@
 }
 
 .box {
-    border : 3px solid #000;
+    border : 1px solid #000;
+    margin: 50px 30px;
+    padding: 20px 20px;
 }
 
 
 .box h2 {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
 }
+
 
 
 /* Header */
